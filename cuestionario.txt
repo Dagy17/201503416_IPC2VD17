@@ -1,0 +1,9 @@
+¿Qué entiende como "commit"?
+	R// es como se guardan los cambios.
+
+¿Qué entiende como "merge"?
+	R// es cuando se unen dos ramas de un mismo proyecto cuando se trabajan en paralelo.
+
+¿Cuál es la diferencia entre "Pull" y "Push"?
+	R// push sube los cambios.
+	    pull extrae los cambios o los baja, 
