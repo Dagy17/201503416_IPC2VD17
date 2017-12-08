@@ -1,0 +1,8 @@
+MODELO ITERATIVO INCREMENTAL:
+
+		Este modelo es lineal escalonado con el cual el desarrollo del producto se ve incrementado.
+		se necesita planear el desarrollo del producto de acuerdo a las prioridades de funcionalidad
+		que el cliente requiere.
+	
+		Cada incremento integra nuevas funcionalidades al producto y se van presentando al cliente
+		totalmente funcionales. se establecen reuniones para ello.

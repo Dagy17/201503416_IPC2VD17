@@ -1,0 +1,22 @@
+1. ANALISIS:
+     		En esta etapa se define el problema, los requisitos y analizan los mismos.
+		se decide que exactamente se supone que debe hacer el sistema.
+
+2. DISEÑO:
+		Es la planeacion de como debe hacerse el sistema, para que cumpla con los
+		requisitos del mismo.
+
+3. DESARROLLO:
+		Se traducen los algoritmos de la fase de diseño a un programa escrito en
+		un lenguaje de codificacion.
+
+4. PRUEBAS DE INTEGRACION:
+		Se implementa la solucion y se comprueba individualmente las funcionalidad
+		del mismo, se ensambla y se integra.
+
+5. IMPLEMENTACION:
+		Se instala la solucion y se entrena al usuario final y se evalua.
+
+6. MANTENIMIENTO:
+		En esta etapa se hacen las mejoras y correcciones convenientes y/o pedidas 
+		por el cliente.

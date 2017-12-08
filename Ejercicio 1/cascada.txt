@@ -1,0 +1,8 @@
+	
+	METODOLOGIA DE CASCADA:
+
+		Esta es la metodologia clasica, en este modelo el desarrollo se separa en fases
+		las cuales se hacen una a la vez partiendo desde la fase de "analisis", 
+		a pesar que este modelo es clasico solo se recomienda para desarrollos a mediano y largo 
+		plazo. una de sus mayores desventajas es la rigidez al cambio, al ser un proceso secuencial
+		se necesitaria el rediseño.
