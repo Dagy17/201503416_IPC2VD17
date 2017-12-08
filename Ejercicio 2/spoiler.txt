@@ -1,0 +1,18 @@
+El arte de la enseñanza, dijo Mark Van Doren, es el arte de ayudar a descubrir. He intentado escribir un libro que ayude a los estudiantes a descubrir el Cálculo, tanto por su utilidad práctica como por su sorprendente belleza. En esta edición, como en las seis primeras
+ediciones, mi objetivo es mostrar a los estudiantes un sentido de la utilidad del cálculo
+y desarrollar en ellos una competencia técnica, pero también intento ilustrar la belleza
+intrínseca de la materia. Sin duda, Newton experimentó una sensación de triunfo cuando
+hizo sus grandes descubrimientos; es mi deseo que los estudiantes compartan un poco de
+esa sensación.
+El énfasis está en la comprensión de los conceptos. Creo que casi todo el mundo
+está de acuerdo en que esta comprensión debe ser el objetivo principal de la enseñanza del
+Cálculo. De hecho, el impulso para la actual reforma en la enseñanza del Cálculo vino
+desde la Conferencia de Tulane en 1986, donde se formuló su primera recomendación:
+Concentrarse en la comprensión de los conceptos
+He intentado implementar este objetivo mediante la regla de los tres: “Los temas deben
+presentarse con enfoques geométricos, numéricos y algebraicos”. La visualización, la
+experimentación numérica y gráfica y otros enfoques han modificado la manera en que se
+enseña el razonamiento conceptual. La regla de los tres se ha ampliado para convertirse en
+la regla de los cuatro al hacer hincapié en la verbalización y lo descriptivo.
+En la redacción de la séptima edición me he propuesto lograr una comprensión conceptual y conservar aún lo mejor del Cálculo tradicional. El libro contiene elementos de la
+reforma, pero dentro del contexto de un currículo tradicional.
