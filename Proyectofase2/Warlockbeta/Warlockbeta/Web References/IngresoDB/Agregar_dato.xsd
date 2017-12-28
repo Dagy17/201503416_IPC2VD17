@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://web_services/" targetNamespace="http://web_services/" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Agregar_Usuario" type="tns:Agregar_Usuario" />
+  <xs:element name="Agregar_UsuarioResponse" type="tns:Agregar_UsuarioResponse" />
+  <xs:element name="Agregar_Vehi" type="tns:Agregar_Vehi" />
+  <xs:element name="Agregar_VehiResponse" type="tns:Agregar_VehiResponse" />
+  <xs:complexType name="Agregar_Usuario">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="nickname" type="xs:string" />
+      <xs:element minOccurs="0" name="nombre" type="xs:string" />
+      <xs:element minOccurs="0" name="correo" type="xs:string" />
+      <xs:element minOccurs="0" name="password" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Agregar_UsuarioResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Agregar_Vehi">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="username" type="xs:string" />
+      <xs:element minOccurs="0" name="placa" type="xs:string" />
+      <xs:element minOccurs="0" name="modelo" type="xs:string" />
+      <xs:element minOccurs="0" name="marca" type="xs:string" />
+      <xs:element minOccurs="0" name="capacidad" type="xs:string" />
+      <xs:element minOccurs="0" name="dpii" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Agregar_VehiResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

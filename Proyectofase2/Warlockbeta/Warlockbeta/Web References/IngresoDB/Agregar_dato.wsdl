@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:wsp="http://www.w3.org/ns/ws-policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:tns="http://web_services/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsp1_2="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" name="Agregar_dato" targetNamespace="http://web_services/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <xsd:schema>
+      <xsd:import schemaLocation="http://localhost:8080/WarLockSoft_logic/Agregar_dato?xsd=1" namespace="http://web_services/" />
+    </xsd:schema>
+  </types>
+  <message name="Agregar_Usuario">
+    <part name="parameters" element="tns:Agregar_Usuario" />
+  </message>
+  <message name="Agregar_UsuarioResponse">
+    <part name="parameters" element="tns:Agregar_UsuarioResponse" />
+  </message>
+  <message name="Agregar_Vehi">
+    <part name="parameters" element="tns:Agregar_Vehi" />
+  </message>
+  <message name="Agregar_VehiResponse">
+    <part name="parameters" element="tns:Agregar_VehiResponse" />
+  </message>
+  <portType name="Agregar_dato">
+    <operation name="Agregar_Usuario">
+      <input wsam:Action="http://web_services/Agregar_dato/Agregar_UsuarioRequest" message="tns:Agregar_Usuario" />
+      <output wsam:Action="http://web_services/Agregar_dato/Agregar_UsuarioResponse" message="tns:Agregar_UsuarioResponse" />
+    </operation>
+    <operation name="Agregar_Vehi">
+      <input wsam:Action="http://web_services/Agregar_dato/Agregar_VehiRequest" message="tns:Agregar_Vehi" />
+      <output wsam:Action="http://web_services/Agregar_dato/Agregar_VehiResponse" message="tns:Agregar_VehiResponse" />
+    </operation>
+  </portType>
+  <binding name="Agregar_datoPortBinding" type="tns:Agregar_dato">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <operation name="Agregar_Usuario">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="Agregar_Vehi">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <service name="Agregar_dato">
+    <port name="Agregar_datoPort" binding="tns:Agregar_datoPortBinding">
+      <soap:address location="http://localhost:8080/WarLockSoft_logic/Agregar_dato" />
+    </port>
+  </service>
+</definitions>
